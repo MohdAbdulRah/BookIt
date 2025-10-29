@@ -1,4 +1,4 @@
-# Bookit
+# BookIt
 
 Bookit is a full-stack web application that allows users to browse, view details, and book exciting experiences like treks, hikes, and adventures.  
 This project is divided into two parts:
@@ -20,7 +20,7 @@ This project is divided into two parts:
 ## 🧩 Project Structure
 
 ```
-Bookit/
+BookIt/
 ├── bookit-frontend/
 │   ├── src/
 │   │   ├── components/
@@ -46,7 +46,7 @@ Bookit/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/MohdAbdulRah/Bookit.git
+git clone https://github.com/MohdAbdulRah/BookIt.git
 cd Bookit
 ```
 
@@ -65,11 +65,6 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-#### Create `.env` file in frontend:
-```
-VITE_API_BASE=http://localhost:5000/api
-```
-
 #### Run backend:
 ```bash
 npm start
@@ -85,11 +80,12 @@ cd ../bookit-frontend
 npm install
 ```
 
-#### Update API URL
-Inside `src/pages/Home.jsx` or `api.js`, set your backend URL:
-```js
-const API_BASE = "http://localhost:5000/api";
+
+#### Create `.env` file in frontend:
 ```
+VITE_API_BASE=http://localhost:5000/api
+```
+
 
 #### Run frontend:
 ```bash
